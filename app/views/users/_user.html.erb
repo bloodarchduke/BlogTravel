@@ -1,0 +1,9 @@
+<li>
+  <% if user.picture? %>
+  <%= image_tag user.picture.url, size: 50 %>
+  <% else %>
+  <img src="images/s2.jpg", height="50", width="50">
+  <% end %>
+  <%= link_to user.name, user %>
+  
+</li>
